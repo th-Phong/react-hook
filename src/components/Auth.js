@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import Card from "./UI/Card";
 import "./Auth.css";
-import { AuthContext } from "./context/auth-context";
+import { AuthContext } from "../context/auth-context";
 
 const Auth = (props) => {
   const authContext = useContext(AuthContext);
